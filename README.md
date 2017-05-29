@@ -2,8 +2,7 @@
 Selfhosted Buildscreen for showing builds from Teamcity
 
 ## buildids.txt
-Used for identify which builds to display
-Seperate with linebreak
+Used for identify which builds in Teamcity to display. Seperate build ids with linebreaks.
 
 ## Configuration:
 * teamcity-address = http address to Teamcity
