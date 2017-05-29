@@ -14,10 +14,11 @@ Just run buildscreen.selfhost.exe
 
 ## As Windowsservice:
 ### Installing 
-buildscreen.selfhost.exe install -servicename "buildscreen.selfhost" -displayname "Buildscreen" -description "Service that show buildstatus on http. See config file for address."
-buildscreen.selfhost.exe start -servicename "buildscreen.selfhost"
+> buildscreen.selfhost.exe install -servicename "buildscreen.selfhost" -displayname "Buildscreen" -description "Service that show
+> buildstatus on http. See config file for address.
+> buildscreen.selfhost.exe start -servicename "buildscreen.selfhost"
 
-###Uninstall
+### Uninstall
 buildscreen.selfhost.exe uninstall -servicename "buildscreen.selfhost"
 
 See topshelf documentation for more switches:
