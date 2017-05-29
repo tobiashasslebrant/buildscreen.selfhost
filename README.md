@@ -6,7 +6,7 @@ Used for identify which builds to display
 Seperate with linebreak
 
 ## Configuration:
-* teamcity-hostname = http address to Teamcity
+* teamcity-address = http address to Teamcity
 * teamcity-username = username for authenticate to Teamcity, if left empty uses guest
 * teamcity-password = password for authenticate to Teamcity
 * teamcity-usessl = True if teamcity uses https
