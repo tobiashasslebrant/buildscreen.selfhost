@@ -12,7 +12,7 @@ namespace Buildscreen.Selfhost.Services
 	{
         public IEnumerable<Build> GetBuilds()
 		{
-            var hostname = ConfigurationManager.AppSettings["teamcity-hostname"];
+            var hostname = ConfigurationManager.AppSettings["teamcity-address"];
             var username = ConfigurationManager.AppSettings["teamcity-username"];
             var password = ConfigurationManager.AppSettings["teamcity-password"];
             var ssl = bool.Parse(ConfigurationManager.AppSettings["teamcity-usessl"]);
