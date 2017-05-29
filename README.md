@@ -1,23 +1,23 @@
-﻿buildids.txt
+## buildids.txt
 Used for identify which builds to display
 Seperate with linebreak
 
-Configuration:
-teamcity-hostname = http address to Teamcity
-teamcity-username = username for authenticate to Teamcity, if left empty uses guest
-teamcity-password = password for authenticate to Teamcity
-teamcity-usessl = True if teamcity uses https
-buildscreen-url = Url for displaying buildscreen
+## Configuration:
+* teamcity-hostname = http address to Teamcity
+* teamcity-username = username for authenticate to Teamcity, if left empty uses guest
+* teamcity-password = password for authenticate to Teamcity
+* teamcity-usessl = True if teamcity uses https
+* buildscreen-url = Url for displaying buildscreen
 
-As selfhost:
+## As selfhost:
 Just run buildscreen.selfhost.exe
 
-As Windowsservice:
-Installing 
+## As Windowsservice:
+### Installing 
 buildscreen.selfhost.exe install -servicename "buildscreen.selfhost" -displayname "Buildscreen" -description "Service that show buildstatus on http. See config file for address."
 buildscreen.selfhost.exe start -servicename "buildscreen.selfhost"
 
-Uninstall
+###Uninstall
 buildscreen.selfhost.exe uninstall -servicename "buildscreen.selfhost"
 
 See topshelf documentation for more switches:
