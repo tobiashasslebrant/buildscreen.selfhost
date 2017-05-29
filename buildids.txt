@@ -1,0 +1,6 @@
+Konstrukt_Specific_BuildBackend
+Konstrukt_Specific_RunBackendUnitTests
+#Konstrukt_3RunIntegrationTests
+#Konstrukt_Specific_BuildClient
+#Konstrukt_Specific_RunClientUnitTests
+#Konstrukt_Specific_3PromoteToOctopus

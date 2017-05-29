@@ -1,0 +1,152 @@
+﻿html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'EmuLogic', Verdana;
+	background: #000;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+.container {
+	width: 100%;
+	margin: 0px auto;
+}
+
+h1.mainheading {
+	font-variant: small-caps;
+	font-weight: 100;
+	text-align: center;
+	color: #FFF;
+}
+
+.lastloaded {
+	color: #FFF;
+    text-align: right;
+}
+
+div.mainheading {
+	margin: 32px auto;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+.nostyle {
+	text-decoration: none;
+	color: #000;
+}
+
+.build {
+	padding: 10px;
+	position: relative;
+}
+
+.build:hover {
+	cursor: pointer;
+}
+
+.build h2 {
+    color: #fff;
+	font-size: 30px;
+    font-weight: bold;
+	height: 40px;
+	overflow: hidden;
+}
+
+.build-wrapper {
+    margin: 2px;
+	background-color: #fff;
+}
+
+.build-wrapper.FAILURE,
+.build-wrapper.ERROR {
+	background-color: #EB4D09;
+}
+
+.SUCCESS .build {
+    background-color: #09A7EB;
+}
+
+
+.FAILURE,
+.ERROR {
+	display: none;
+}
+
+.time {
+	margin-top:12px;
+	font-size: 20px;
+}
+
+
+@-webkit-keyframes blinker {  
+	from { opacity: 1.0; }
+	to { opacity: 0.0; }
+}
+.blink {
+	-webkit-animation-name: blinker;  
+	-webkit-animation-iteration-count: infinite;  
+	-webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+	-webkit-animation-duration: 1s; 
+}	
+
+.failbox {
+	background-color: orange;
+	width: 400px;
+	height: 200px;
+	text-align: center;
+	padding: 110px 30px 30px 30px;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.checkbox {
+	float: left;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
