@@ -1,3 +1,6 @@
+# Buildscreen.Selfhost
+Selfhosted Buildscreen for showing builds from Teamcity
+
 ## buildids.txt
 Used for identify which builds to display
 Seperate with linebreak
@@ -14,12 +17,11 @@ Just run buildscreen.selfhost.exe
 
 ## As Windowsservice:
 ### Installing 
-> buildscreen.selfhost.exe install -servicename "buildscreen.selfhost" -displayname "Buildscreen" -description "Service that show
-> buildstatus on http. See config file for address.
-> buildscreen.selfhost.exe start -servicename "buildscreen.selfhost"
+* buildscreen.selfhost.exe install -servicename "buildscreen.selfhost" -displayname "Buildscreen" -description "Service that show buildstatus on http. See config file for address.
+* buildscreen.selfhost.exe start -servicename "buildscreen.selfhost"
 
 ### Uninstall
-buildscreen.selfhost.exe uninstall -servicename "buildscreen.selfhost"
+* buildscreen.selfhost.exe uninstall -servicename "buildscreen.selfhost"
 
 See topshelf documentation for more switches:
 http://docs.topshelf-project.com/en/latest/overview/commandline.html
