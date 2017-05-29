@@ -12,7 +12,7 @@ Seperate with linebreak
 * teamcity-usessl = True if teamcity uses https
 * buildscreen-url = Url for displaying buildscreen
 
-## As selfhost:
+## As Self:
 Just run buildscreen.selfhost.exe
 
 ## As Windowsservice:
