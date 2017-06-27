@@ -1,2 +1,0 @@
-a_build_id_1
-a_build_id_2

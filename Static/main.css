@@ -92,20 +92,19 @@ h1 {
 	background-color: #fff;
 }
 
-.build-wrapper.FAILURE,
-.build-wrapper.ERROR {
-	background-color: #EB4D09;
+.FAILURE
+{
+	background-color: red;
 }
 
-.SUCCESS .build {
-    background-color: #09A7EB;
+.SUCCESS {
+    background-color: blue;
 }
 
-
-.FAILURE,
 .ERROR {
-	display: none;
+    background-color: orange;
 }
+
 
 .time {
 	margin-top:12px;
