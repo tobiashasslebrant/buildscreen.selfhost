@@ -13,8 +13,8 @@ namespace Buildscreen.Selfhost.Controllers
         {
             try
             {
-                var helper = new BuildService();
-                var builds = helper.GetBuilds().ToArray();
+                var buildService = new BuildService();
+                var builds = buildService.GetBuilds().ToArray();
                 var columns = string.Concat(builds.Select(s => $@"
                     <div class=""build-wrapper {s.Status}"">
                         <div class=""build"">
